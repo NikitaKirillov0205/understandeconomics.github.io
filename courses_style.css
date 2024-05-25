@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(241, 247, 252);
+}
+/* nav_bar styles*/
+.nav_bar{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 125%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.nav_link{
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+/* heading */
+.heading{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;  
+    text-align: center;
+}
+/* course list styles */
+.courses_list{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.course_list_element{
+    padding: 3ch;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	justify-content: space-around;
+    border-radius: 25px;
+    background: #0E5D7B;
+    background: -webkit-linear-gradient(45deg, #33ffda, #F0F9A7);
+    background: linear-gradient(45deg, #33ffda, #F0F9A7);
+    
+}
+img{
+    width: 20%;
+    border-radius: 5%;
+}
+.elem_text{
+    width: 60%;
+}
+
+@media (max-width: 600px) { /* Adjusts the layout for screens smaller than 600px */
+    img{
+        display: none;
+    }
+}
+
+
+.footer{
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    background-color: rgb(156, 255, 214);
+    width: auto;
+    height: max-content;
+    margin: -7px;
+  }
